@@ -23,6 +23,7 @@ import java.util.*;
  */
 public class StudentAPI {
     
+    @SuppressWarnings("FieldMayBeFinal")
     private static Map<String, Student> students = new HashMap<>();
     private static String csvFilePath;
     
@@ -137,6 +138,7 @@ public class StudentAPI {
         sendResponse(exchange, 200, "{\"status\":\"OK\"}");
     }
     
+    @SuppressWarnings("ConvertToTryWithResources")
     private static void sendResponse(HttpExchange exchange, int statusCode, String response) 
             throws IOException {
         exchange.getResponseHeaders().set("Content-Type", "application/json");
