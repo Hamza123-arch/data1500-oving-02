@@ -1,11 +1,11 @@
 # Besvarelse på refleksjonspørsmålene
 
-Ditt brukernavn på Oslomet: 
+Ditt brukernavn på Oslomet: hazub4565
 
 ## Refleksjonsspørsmål Oppgave 1 
 
 S1: Hva er fordelene med å bruke JSON i stedet for CSV for API-respons?
-- Ditt svar:
+- Ditt svar: 
   
 S2: Hvordan kan en frontend-applikasjon (nettleser) bruke denne API-en?
 - Ditt svar: 
